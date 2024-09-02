@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+    --primary-color: #FED001;
+}
+
+html{
+    font: 400 62.5% 'Inter', sans-serif;
+}
+
+p, a{
+    font-size: 1.6rem;
+}
+nav a{
+    color: inherit;
+}
+
+.btn{
+    color: inherit;
+    border-radius: 4px;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 2rem 5.5rem;
+    background-color: #FED001;
+    display: inline-block;
+}
+.padding-content{
+    padding-top: 12rem;
+}
+
+.background-color_dark{
+    background-color: #2A2A2A;
+    color: #fafafa;
+}
+
+.background-color_white{
+    background-color: #fafafa;
+}
+.background-color_blue{
+    background-color: #003464;
+    color: #fafafa;
+}
+.upper{
+    text-transform: uppercase;
+}
+.container{
+    max-width: 170rem;
+    margin: auto;
+}
+.header-sticky{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 2rem 0rem;
+    color: var(--primary-color);
+}
+.header-nav ul{
+    display: flex;
+    gap: .6rem;
+    list-style-type: none;
+}
+.header-nav a{
+    text-decoration: none;
+    padding: .75em 1.15em;
+    border: .1rem solid;
+}
+.header-nav a:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.background-color_yellow{
+    background-image: linear-gradient(white, rgb(255, 255, 85));
+}
+.section-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35rem;
+}
+.section-banner_text_h1{
+    font-size: 5rem;
+    margin-bottom: 5rem; 
+}
+.cursos{
+    text-align: center;
+}
+.container-h1{
+    font-size: 4rem;
+    margin: 0;
+    padding: 7rem 0;
+    text-align: center;
+}
+.cursos-display{
+    display: flex;
+    text-align: left;
+    gap: 3rem;
+}
+.cursos-display-style{
+    flex: 1;
+}
+
+.cursos-display-style img{
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+
+}
+.cursos-text{
+    border: 1px solid #ccc;
+    border-top: hidden;
+    padding: 1rem;
+    border-radius: 0px 0px 8px 8px;
+}
+.cursos-text h2{
+    margin-top: 0;
+    font-size: 3rem;
+}
+.cursos-text p{
+    font-size: 1.8rem;
+    line-height: 4rem;
+}
+.section_btn{
+    margin: 7rem 0; 
+}
+.escola{
+    display: flex;
+}
+.school-text{
+    text-align: left;
+    margin: auto 0 auto 7rem;
+}
+.school-text h1{
+    font-size: 4rem;
+}
+.school-text p{
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+}
+.informações-endereço{
+    text-align: right;
+    font-size: 2rem;
+    margin: 4rem 0;
+    font-family: "Inter", sans-serif;
+}
+.footer{
+    text-align: center;
+    padding: 5rem;
+    font-size: 2rem;
+    margin: 0;
+}
